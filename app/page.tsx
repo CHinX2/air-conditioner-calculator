@@ -304,6 +304,8 @@ export default function Home() {
             <div className="grid grid-cols-[1fr_auto_1fr_auto] items-center gap-2">
               <Input
                 type="number"
+                inputMode="decimal"
+                pattern="[0-9]*[.,]?[0-9]*"
                 min="0"
                 step="0.1"
                 placeholder="長(公尺)"
@@ -315,6 +317,8 @@ export default function Home() {
               <span className="text-xl font-black">X</span>
               <Input
                 type="number"
+                inputMode="decimal"
+                pattern="[0-9]*[.,]?[0-9]*"
                 min="0"
                 step="0.1"
                 placeholder="寬(公尺)"
@@ -333,6 +337,8 @@ export default function Home() {
             <div className="grid grid-cols-[1fr_auto] items-center gap-2">
               <Input
                 type="number"
+                inputMode="decimal"
+                pattern="[0-9]*[.,]?[0-9]*"
                 min="0"
                 step="0.1"
                 placeholder={isPingDisabled ? "自動計算坪數" : "請輸入坪數"}
@@ -377,7 +383,6 @@ export default function Home() {
               <p>一坪約需 600kcal/hr 來計算（台灣氣候因數）</p>
               <p>冷氣大小計算： </p>
               <p>坪數 x（依照房間條件所需移走之熱量）= 冷氣的能力</p>
-              <p>計算僅供參考使用</p>
               <p>★特殊場地及營業場所必須與專業人員現場評估討論★</p>
             </section>
           </CardContent>
