@@ -1,5 +1,6 @@
 {
   "name": "air-conditioner-calculator",
+  "homepage": "https://chinx2.github.io/air-conditioner-calculator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
