@@ -1,6 +1,7 @@
 # Air Conditioner Calculator (Next.js + shadcn/ui)
 
 This project rewrites the original air conditioner calculator into a Next.js app using shadcn-style UI components.
+給老爸的冷氣冷房計算機 web app
 
 ## Setup
 
